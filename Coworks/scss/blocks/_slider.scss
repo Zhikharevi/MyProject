@@ -1,0 +1,25 @@
+.slider {
+	overflow: hidden;
+	display: flex;
+	column-gap: 10px;
+
+	img {
+		max-width: unset;
+	}
+}
+
+// #tns1-item0 {
+// 	padding-left: 15px;
+// }
+
+.slider > div:first-child {
+	padding-left: 15px;
+}
+
+.slider__img {
+	border-radius: 8px;
+
+	@include mobile {
+		height: 250px;
+	}
+}
